@@ -6,17 +6,19 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QStyledItemDelegate, QVBo
 from PyQt5.QtGui import QIcon, QRegExpValidator, QTextTable
 from PyQt5.QtCore import QRegExp, pyqtSlot, Qt
 
+#Clase delegate para campos que no deben ser modificados
 class ReadOnlyDelegate(QStyledItemDelegate):
     def createEditor(self, parent, option, index):
         return
 
+#Clase delegate para campos que solo admiten numeros
 class NumberOnlyDelegate(QItemDelegate):
     def createEditor(self, parent, option, index):
         dSpinBox = QtWidgets.QDoubleSpinBox(parent)
         dSpinBox.setDecimals(4)
         dSpinBox.setMaximum(9999.9999)
         if index.column() > 1:
-            return dSpinBox             #Probando git
+            return dSpinBox             
 
 class App(QWidget):
     colPivot = 0
