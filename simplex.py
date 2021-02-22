@@ -16,7 +16,7 @@ class NumberOnlyDelegate(QItemDelegate):
         dSpinBox.setDecimals(4)
         dSpinBox.setMaximum(9999.9999)
         if index.column() > 1:
-            return dSpinBox
+            return dSpinBox             #Probando git
 
 class App(QWidget):
     colPivot = 0
