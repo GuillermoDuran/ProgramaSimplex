@@ -6,3 +6,11 @@ pueda obtenerse utilizando el método simplex.
 * Python 3.8 como lenguaje de programación
 * Visual Studio Code como IDE
 * La librería de desarrollo de interfaces visuales de python PyQt5 versión 5.15.0
+* PyInstaller para crear un archivo .exe
+* pip para instalar librerías de python
+
+## Descaragar el Programa
+* Bajar el archivo Simplex EXE.rar
+* Descomprimirlo en cualquier directorio
+* Dirigirse a la ruta Simplex EXE\dist
+* Ejecutar simplex.exe
