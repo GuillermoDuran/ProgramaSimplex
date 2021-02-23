@@ -245,6 +245,9 @@ class App(QWidget):
 
                 row += 1
 
+            if camposVacios == True:
+                break
+            
             col += 1
 
         if camposVacios == False:
