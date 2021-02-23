@@ -9,7 +9,7 @@ pueda obtenerse utilizando el método simplex.
 * PyInstaller para crear un archivo .exe
 * pip para instalar librerías de python
 
-## Descaragar el Programa
+## Descargar el Programa
 * Bajar el archivo Simplex EXE.rar
 * Descomprimirlo en cualquier directorio
 * Dirigirse a la ruta Simplex EXE\dist
