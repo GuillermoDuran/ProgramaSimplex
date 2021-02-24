@@ -65,8 +65,8 @@ class App(QWidget):
         textbox1.setValidator(QRegExpValidator(rx))
         
         #Boton para procesar los datos ingresados
-        buttonOk = QPushButton('Ok')
-        buttonOk.setToolTip('Ok')
+        buttonOk = QPushButton('Generar Tablas')
+        buttonOk.setToolTip('Generar Tablas')
         buttonOk.setMaximumWidth(100)
 
         #Tabla para llenar datos iniciales

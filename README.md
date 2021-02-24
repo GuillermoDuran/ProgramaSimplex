@@ -10,7 +10,7 @@ pueda obtenerse utilizando el método simplex.
 * pip para instalar librerías de python
 
 ## Descargar el Programa
-* Bajar el archivo Simplex EXE.rar
+* Bajar el archivo simplex.zip
 * Descomprimirlo en cualquier directorio
-* Dirigirse a la ruta Simplex EXE\dist
+* Dirigirse a la ruta simplex.exe\dist
 * Ejecutar simplex.exe
